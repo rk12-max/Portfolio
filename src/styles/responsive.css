@@ -1,4 +1,51 @@
+
+/* =========================================
+   TABLET RESPONSIVE - MAX WIDTH 900px
+========================================= */
+
 @media (max-width: 900px) {
+
+  /* Header */
+  .site-nav {
+    gap: 18px;
+  }
+
+  /* Hero */
+  .hero-visual {
+    right: 3%;
+    width: 40%;
+  }
+
+  /* About */
+  .about-section {
+    grid-template-columns: 190px 1fr;
+  }
+
+  .about-facts {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 0;
+    border-top: 1px solid #d3def2;
+    border-left: 0;
+  }
+
+  /* Experience */
+  .experience-item {
+    grid-template-columns: 40px 52px 1fr 180px;
+    gap: 12px;
+  }
+
+  /* Projects */
+  .projects-grid {
+    gap: 12px;
+  }
+
+  .project-preview {
+    height: 135px;
+  }
+
+  /* Contact Form */
   .contact-form-container {
     grid-template-columns: 1fr 1fr;
   }
@@ -13,44 +60,20 @@
   }
 }
 
+
+/* =========================================
+   MOBILE RESPONSIVE - MAX WIDTH 768px
+========================================= */
+
 @media (max-width: 768px) {
+
+  /* Profile Image */
   .profile-image {
     max-width: 280px;
-    margin: 0 auto;
-    margin-bottom: 20px;
+    margin: 0 auto 20px;
   }
 
-  .contact-form-section {
-    padding: 45px 22px;
-  }
-
-  .contact-form-container {
-    grid-template-columns: 1fr;
-    border-radius: 18px;
-    display: block !important;
-  }
-
-  .contact-form-visual {
-    min-height: 350px;
-  }
-
-  .contact-image-overlay {
-    left: 24px;
-    right: 24px;
-    bottom: 25px;
-  }
-
-  .contact-image-overlay h2 {
-    font-size: 29px;
-  }
-
-  .contact-form-content {
-    padding: 28px 22px;
-  }
-
-  .contact-form-content h2 {
-    font-size: 26px;
-  }
+  /* Header */
   .site-header {
     height: 66px;
   }
@@ -81,7 +104,7 @@
     display: flex;
   }
 
-  .site-nav>a {
+  .site-nav > a {
     padding: 13px 4px;
   }
 
@@ -90,6 +113,7 @@
     margin-top: 8px;
   }
 
+  /* Hero */
   .hero-section {
     min-height: 720px;
     padding: 54px 25px 300px;
@@ -150,10 +174,12 @@
     right: 7%;
   }
 
+  /* Common Sections */
   .section-container {
     padding: 48px 22px;
   }
 
+  /* About */
   .about-section {
     grid-template-columns: 1fr;
     gap: 22px;
@@ -177,10 +203,12 @@
     grid-column: 1 / -1;
   }
 
+  /* Section Heading */
   .section-heading h2 {
     font-size: 27px;
   }
 
+  /* Experience */
   .experience-item {
     grid-template-columns: 34px 48px 1fr;
     gap: 9px;
@@ -219,6 +247,7 @@
     left: 5px;
   }
 
+  /* Skills */
   .skills-section {
     padding-top: 42px;
   }
@@ -232,6 +261,7 @@
     font-size: 11px;
   }
 
+  /* Projects */
   .projects-section {
     padding-top: 10px;
     padding-bottom: 50px;
@@ -250,6 +280,39 @@
     min-height: 0;
   }
 
+  /* Contact Form */
+  .contact-form-section {
+    padding: 45px 22px;
+  }
+
+  .contact-form-container {
+    grid-template-columns: 1fr;
+    border-radius: 18px;
+  }
+
+  .contact-form-visual {
+    min-height: 350px;
+  }
+
+  .contact-image-overlay {
+    left: 24px;
+    right: 24px;
+    bottom: 25px;
+  }
+
+  .contact-image-overlay h2 {
+    font-size: 29px;
+  }
+
+  .contact-form-content {
+    padding: 28px 22px;
+  }
+
+  .contact-form-content h2 {
+    font-size: 26px;
+  }
+
+  /* Contact */
   .contact-section {
     padding: 42px 22px 30px;
   }
@@ -268,64 +331,10 @@
     border-left: 0;
   }
 
-  .hire-button {
-    justify-self: start;
-  }
-
+  /* Footer */
   .site-footer {
     flex-direction: column;
     padding: 19px 22px;
     font-size: 10px;
-  }
-}
-
-
-@media (max-width: 900px) {
-  .contact-form-container {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .contact-form-content {
-    padding: 30px;
-  }
-
-  .contact-image-overlay {
-    left: 25px;
-    right: 25px;
-  }
-
-  .site-nav {
-    gap: 18px;
-  }
-
-  .hero-visual {
-    right: 3%;
-    width: 40%;
-  }
-
-  .about-section {
-    grid-template-columns: 190px 1fr;
-  }
-
-  .about-facts {
-    grid-column: 1 / -1;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 0 0;
-    border-top: 1px solid #d3def2;
-    border-left: 0;
-  }
-
-  .projects-grid {
-    gap: 12px;
-  }
-
-  .project-preview {
-    height: 135px;
-  }
-
-  .experience-item {
-    grid-template-columns: 40px 52px 1fr 180px;
-    gap: 12px;
   }
 }
