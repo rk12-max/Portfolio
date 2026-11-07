@@ -1,11 +1,3 @@
-@media (max-width: 768px) {
-  .profile-image {
-    max-width: 280px;
-    margin: 0 auto;
-    margin-bottom: 20px;
-  }
-}
-
 @media (max-width: 900px) {
   .contact-form-container {
     grid-template-columns: 1fr 1fr;
@@ -21,7 +13,13 @@
   }
 }
 
-@media (max-width: 680px) {
+@media (max-width: 768px) {
+  .profile-image {
+    max-width: 280px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
   .contact-form-section {
     padding: 45px 22px;
   }
@@ -29,6 +27,7 @@
   .contact-form-container {
     grid-template-columns: 1fr;
     border-radius: 18px;
+    display: block !important;
   }
 
   .contact-form-visual {
@@ -52,47 +51,6 @@
   .contact-form-content h2 {
     font-size: 26px;
   }
-}
-
-
-@media (max-width: 900px) {
-  .site-nav {
-    gap: 18px;
-  }
-
-  .hero-visual {
-    right: 3%;
-    width: 40%;
-  }
-
-  .about-section {
-    grid-template-columns: 190px 1fr;
-  }
-
-  .about-facts {
-    grid-column: 1 / -1;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 0 0;
-    border-top: 1px solid #d3def2;
-    border-left: 0;
-  }
-
-  .projects-grid {
-    gap: 12px;
-  }
-
-  .project-preview {
-    height: 135px;
-  }
-
-  .experience-item {
-    grid-template-columns: 40px 52px 1fr 180px;
-    gap: 12px;
-  }
-}
-
-@media (max-width: 680px) {
   .site-header {
     height: 66px;
   }
@@ -318,5 +276,56 @@
     flex-direction: column;
     padding: 19px 22px;
     font-size: 10px;
+  }
+}
+
+
+@media (max-width: 900px) {
+  .contact-form-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contact-form-content {
+    padding: 30px;
+  }
+
+  .contact-image-overlay {
+    left: 25px;
+    right: 25px;
+  }
+
+  .site-nav {
+    gap: 18px;
+  }
+
+  .hero-visual {
+    right: 3%;
+    width: 40%;
+  }
+
+  .about-section {
+    grid-template-columns: 190px 1fr;
+  }
+
+  .about-facts {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 0;
+    border-top: 1px solid #d3def2;
+    border-left: 0;
+  }
+
+  .projects-grid {
+    gap: 12px;
+  }
+
+  .project-preview {
+    height: 135px;
+  }
+
+  .experience-item {
+    grid-template-columns: 40px 52px 1fr 180px;
+    gap: 12px;
   }
 }

@@ -6,7 +6,6 @@
 }
 
 .contact-form-container {
-  /* max-width: 1200px; */
   margin: 0 auto;
   display: grid;
   grid-template-columns: 0.9fr 1.1fr;
