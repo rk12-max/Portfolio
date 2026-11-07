@@ -51,12 +51,12 @@ const ContactForm = () => {
             </div>
 
             <div className="form-group">
-              <label htmlFor="whatsapp">WhatsApp Mobile Number</label>
+              <label htmlFor="mobile">Mobile Number</label>
               <input
                 type="tel"
-                id="whatsapp"
-                name="whatsapp Number"
-                placeholder="Enter your WhatsApp number"
+                id="mobile"
+                name="Mobile Number"
+                placeholder="Enter your Mobile number"
                 autoComplete="tel"
                 inputMode="tel"
                 required
