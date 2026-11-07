@@ -19,6 +19,18 @@ src/
 │   └── SectionHeading.jsx
 ├── data/
 │   └── portfolio.js
+├── styles/
+│   ├── about.css
+│   ├── base.css
+│   ├── contact.css
+│   ├── contactform.css
+│   ├── experience.css
+│   ├── header.css
+│   ├── hero.css
+│   ├── projects.css
+│   ├── responsive.css
+│   └── typography.css
+│   └── variables.css
 ├── App.jsx
 ├── main.jsx
 └── styles.css
