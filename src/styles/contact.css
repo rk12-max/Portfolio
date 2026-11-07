@@ -1,0 +1,91 @@
+/* Contact and footer */
+.contact-section {
+  position: relative;
+  overflow: hidden;
+  padding: 50px max(7vw, 32px) 42px;
+  color: white;
+  background: linear-gradient(120deg, #071329, #0b1e3c);
+}
+
+.contact-section::after {
+  content: "";
+  position: absolute;
+  right: 5%;
+  bottom: -130px;
+  width: 400px;
+  height: 200px;
+  border-radius: 50%;
+  background: #0755b8;
+  filter: blur(90px);
+  opacity: .5;
+}
+
+.contact-inner {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr auto;
+  gap: 40px;
+  align-items: center;
+}
+
+.contact-intro h2 {
+  margin: 9px 0;
+  font: 700 36px "Space Grotesk";
+}
+
+.contact-intro h2 span {
+  color: var(--blue);
+}
+
+.contact-intro p {
+  color: #c5d5ed;
+  font-size: 13px;
+}
+
+.contact-list {
+  display: grid;
+  gap: 12px;
+  padding-left: 35px;
+  border-left: 1px solid #1a4b81;
+}
+
+.contact-list a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #e6efff;
+  font-size: 13px;
+}
+
+.contact-list svg {
+  width: 17px;
+  color: var(--blue);
+}
+
+.back-to-top {
+  cursor: pointer;
+}
+
+.site-footer {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 19px max(7vw, 32px);
+  border-top: 1px solid #244269;
+  color: #c6d4e9;
+  background: #071329;
+  font-size: 11px;
+}
+
+.site-footer span:last-child {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.site-footer svg {
+  color: #159cff;
+}

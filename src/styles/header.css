@@ -1,0 +1,65 @@
+.site-header {
+  height: 76px;
+  padding: 0 max(5vw, 24px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  color: #fff;
+  background: var(--navy);
+  border-bottom: 1px solid #ffffff12;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font: 700 21px "Space Grotesk";
+}
+
+.brand svg {
+  width: 34px;
+  height: 34px;
+  color: #079cff;
+  stroke-width: 3;
+}
+
+.brand b {
+  color: #079cff;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.site-nav>a {
+  color: #e5edff;
+  font-size: 14px;
+  font-weight: 600;
+  transition: color .2s;
+}
+
+.site-nav>a:hover {
+  color: #16a5ff;
+}
+
+.site-nav .nav-contact {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: #fff;
+  border: 1px solid #c5d5f1;
+  border-radius: 30px;
+  padding: 10px 17px;
+}
+
+.menu-toggle {
+  display: none;
+  color: white;
+  background: none;
+  border: 0;
+}

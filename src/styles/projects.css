@@ -1,0 +1,135 @@
+/* Skills and projects */
+.skills-section {
+  padding-top: 55px;
+  padding-bottom: 45px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 10px 14px;
+  border: 1px solid #d8e3f6;
+  border-radius: 30px;
+  background: white;
+  box-shadow: 0 3px 10px #183c7410;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.skill-chip svg {
+  color: var(--blue);
+}
+
+.projects-section {
+  padding-top: 20px;
+  padding-bottom: 45px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  overflow: hidden;
+  border: 1px solid #dce5f4;
+  border-radius: 15px;
+  background: white;
+  box-shadow: 0 8px 24px #183c7410;
+  transition: transform .25s, box-shadow .25s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 14px 30px #183c7420;
+}
+
+.project-preview {
+  height: 170px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  background: #dce8fa;
+}
+
+.project-preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .4s;
+}
+
+.project-card:hover .project-preview img {
+  transform: scale(1.05);
+}
+
+.preview-action {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  color: var(--blue);
+  background: white;
+}
+
+.project-body {
+  padding: 17px;
+}
+
+.project-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.project-title-row h3 {
+  margin: 0;
+  font: 700 15px "Space Grotesk";
+}
+
+.project-title-row time {
+  color: #5c6d8a;
+  font-size: 10px;
+  white-space: nowrap;
+}
+
+.project-body p {
+  min-height: 58px;
+  color: #33425f;
+  font-size: 12px;
+  line-height: 1.65;
+}
+
+.project-stack {
+  display: inline-block;
+  padding: 5px 9px;
+  border-radius: 20px;
+  color: #075fae;
+  background: #eaf4ff;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.project-url {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 13px;
+  color: #0678df;
+  font-size: 11px;
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}

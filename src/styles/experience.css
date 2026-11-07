@@ -1,0 +1,99 @@
+/* Experience */
+.section-tinted {
+  background: #eef3ff;
+}
+
+.experience-timeline {
+  position: relative;
+  margin-top: 22px;
+}
+
+.experience-timeline::before {
+  content: "";
+  position: absolute;
+  left: 13px;
+  top: 12px;
+  bottom: 20px;
+  width: 2px;
+  background: #b9d4fa;
+}
+
+.experience-item {
+  position: relative;
+  display: grid;
+  grid-template-columns: 52px 58px 1fr 230px;
+  gap: 16px;
+  align-items: start;
+  padding-bottom: 28px;
+}
+
+.experience-item:last-child {
+  padding-bottom: 0;
+}
+
+.timeline-marker {
+  position: absolute;
+  left: 7px;
+  top: 9px;
+  z-index: 1;
+  width: 14px;
+  height: 14px;
+  border: 2px solid #eaf3ff;
+  border-radius: 50%;
+  background: var(--blue);
+}
+
+.company-logo {
+  grid-column: 2;
+  width: 54px;
+  height: 54px;
+  display: grid;
+  place-items: center;
+  border-radius: 13px;
+  color: #1253a9;
+  background: white;
+  box-shadow: 0 5px 15px #183c7415;
+  font: 800 20px "Space Grotesk";
+}
+
+.experience-copy {
+  grid-column: 3;
+}
+
+.experience-copy h3 {
+  margin: 2px 0 0;
+  font: 700 18px "Space Grotesk";
+}
+
+.experience-copy h4 {
+  margin: 1px 0 7px;
+  font-size: 13px;
+}
+
+.experience-copy ul {
+  margin: 0;
+  padding-left: 17px;
+  color: #263654;
+  font-size: 12.5px;
+  line-height: 1.65;
+}
+
+.experience-meta {
+  grid-column: 4;
+  display: grid;
+  gap: 8px;
+  padding-top: 4px;
+  color: #293d62;
+  font-size: 12px;
+}
+
+.experience-meta span {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.experience-meta svg {
+  flex-shrink: 0;
+  color: #0b4b9b;
+}

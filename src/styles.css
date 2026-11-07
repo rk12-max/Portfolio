@@ -1,0 +1,11 @@
+@import "./styles/variables.css";
+@import "./styles/base.css";
+@import "./styles/typography.css";
+@import "./styles/header.css";
+@import "./styles/hero.css";
+@import "./styles/about.css";
+@import "./styles/experience.css";
+@import "./styles/projects.css";
+@import "./styles/contact.css";
+@import "./styles/responsive.css";
+@import "./styles/ContactForm.css";

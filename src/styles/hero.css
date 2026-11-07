@@ -1,0 +1,198 @@
+/* Hero */
+.hero-section {
+  min-height: 560px;
+  padding: 70px max(7vw, 32px) 82px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  color: white;
+  background: linear-gradient(115deg, #071329, #0b1d3b 68%, #071329);
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  width: 670px;
+  height: 670px;
+  right: -170px;
+  top: -330px;
+  border: 1px solid #168fff20;
+  border-radius: 50%;
+  box-shadow: 0 0 0 65px #168fff08, 0 0 0 130px #168fff06;
+}
+
+.hero-glow {
+  position: absolute;
+  width: 430px;
+  height: 430px;
+  right: 12%;
+  bottom: -180px;
+  border-radius: 48% 52% 42% 58%;
+  background: linear-gradient(145deg, #0751bb, #078df5);
+}
+
+.hero-dots {
+  position: absolute;
+  right: 6%;
+  top: 120px;
+  width: 90px;
+  height: 90px;
+  background-image: radial-gradient(#0a9cff 2px, transparent 2px);
+  background-size: 17px 17px;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 620px;
+}
+
+.hero-greeting {
+  margin: 0;
+  font-size: 29px;
+  font-weight: 700;
+}
+
+.hero-content h1 {
+  margin: 0;
+  font: 700 clamp(48px, 6vw, 76px)/1.05 "Space Grotesk";
+  letter-spacing: -3px;
+}
+
+.hero-content h1 span {
+  color: #078ff5;
+}
+
+.hero-content h2 {
+  margin: 8px 0 6px;
+  font: 700 clamp(25px, 3vw, 34px) "Space Grotesk";
+}
+
+.accent-line {
+  width: 62px;
+  height: 4px;
+  margin: 12px 0 20px;
+  background: #079cff;
+}
+
+.hero-summary {
+  margin: 0 0 25px;
+  color: #e4edff;
+  font-size: 17px;
+  line-height: 1.65;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 13px 21px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 700;
+  transition: transform .2s, box-shadow .2s;
+}
+
+.button:hover {
+  transform: translateY(-3px);
+}
+
+.button-primary {
+  color: white;
+  background: linear-gradient(110deg, #0788f4, #0874e4);
+  box-shadow: 0 8px 22px #007ff044;
+}
+
+.button-outline {
+  color: white;
+  border: 1px solid #dbe7ff;
+}
+
+.social-links {
+  display: flex;
+  gap: 22px;
+  margin-top: 26px;
+}
+
+.social-links a {
+  color: #f4f8ff;
+}
+
+.social-links a:first-child {
+  color: #159cff;
+}
+
+.social-links svg {
+  width: 22px;
+  height: 22px;
+}
+
+.hero-visual {
+  position: absolute;
+  z-index: 1;
+  right: 9%;
+  bottom: 0;
+  width: 38%;
+  height: 92%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.portrait-backdrop {
+  position: absolute;
+  bottom: 0;
+  width: 85%;
+  height: 76%;
+  border-radius: 48% 52% 0 0;
+  background: linear-gradient(150deg, #0866d8aa, #008dfb22);
+}
+
+.portrait-placeholder {
+  position: relative;
+  width: 270px;
+  height: 330px;
+  border: 1px solid #60baff55;
+  border-radius: 48% 48% 18px 18px;
+  background: linear-gradient(145deg, #1b3b66, #0b1930);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #1aa5ff;
+  box-shadow: 0 0 55px #078df544;
+}
+
+.portrait-placeholder span {
+  color: #d8eaff;
+  font: 700 52px "Space Grotesk";
+}
+
+.portrait-hint {
+  position: absolute;
+  right: 0;
+  bottom: 12px;
+  color: #b8d8ff;
+  font-size: 11px;
+}
+
+.profile-image {
+  width: 100%;
+  max-width: 500px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 24px;
+  position: relative;
+  z-index: 1;
+  height: auto;
+  margin-bottom: 32px;
+}
