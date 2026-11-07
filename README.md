@@ -1,4 +1,4 @@
-# Rishu Kumar — Component-based React Portfolio
+# Rishu Kumar — Portfolio
 
 A responsive portfolio built with React, Vite, reusable components and plain CSS.
 
