@@ -26,7 +26,7 @@ export default function About() {
         </div>
         <div className="fact-item">
           <Code2 />
-          <p><strong>React · Next.js</strong><span>Drupal · More</span></p>
+          <p><strong>React · Next.js</strong><span>State Management · More</span></p>
         </div>
       </div>
     </section>

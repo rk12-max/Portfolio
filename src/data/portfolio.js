@@ -19,7 +19,7 @@ export const experience = [
   {
     company: "Digital Polygon",
     role: "Frontend Developer",
-    date: "09/2023 – 06/2026",
+    date: "09/2023 – Present",
     location: "Bethesda, MD, USA (Remote)",
     logo: "DP",
     highlights: [
@@ -35,27 +35,29 @@ export const experience = [
     location: "Pune, India",
     logo: "Q",
     highlights: [
-      "Built responsive web interfaces using HTML, CSS, JavaScript and Drupal theming.",
-      "Developed interactive and dynamic web applications using React.js."
+      "Built responsive and scalable web interfaces using HTML, CSS, JavaScript, and React, improving performance and cross-browser compatibility.",
+      "Developed interactive and dynamic web applications using React.js, following a component-based architecture.",
+      "Developed reusable and modular React components, integrated REST APIs for dynamic data handling, and enhanced frontend usability, responsiveness, and overall application experience."
     ]
   },
   {
     company: "Douce Infotech Private Ltd",
-    role: "Drupal Developer",
+    role: "Junior Frontend Developer",
     date: "02/2021 – 07/2022",
     location: "Muzaffarpur, India (Onsite)",
     logo: "D",
     highlights: [
-      "Developed and customized Drupal themes using Twig to meet business requirements.",
-      "Improved application performance and managed code using Git, branching and pull requests."
+      "Developed and customized Component based architecture to improve user experience and meet business requirements.",
+      "Improved application performance and managed code using Git, including branching and pull requests.",
+      "Collaborated with cross-functional teams to implement UI enhancements, resolve frontend issues, and deliver user-friendly web solutions aligned with project requirements."
     ]
   }
 ];
 
 export const skills = [
-  "React.js", "Next.js", "JavaScript (ES6+)", "TypeScript", "Redux Toolkit",
-  "Tailwind CSS", "Bootstrap", "Material UI", "Git & GitHub", "REST APIs",
-  "Drupal", "React Testing Library", "CI/CD", "Responsive Design",
+  "HTML5", "CSS3", "JavaScript (ES6+)", "React.js", "TypeScript", "Next.js", "Redux Toolkit",
+  "Tailwind CSS", "Material UI", "Git & GitHub", "REST APIs", 
+  "React Testing Library", "CI/CD", "Responsive Design",
   "Performance Optimization"
 ];
 
@@ -86,8 +88,8 @@ export const projects = [
     url: "https://www.alnylam.com/",
     image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=600&h=340&q=65",
     alt: "Scientific laboratory research",
-    stack: "Drupal · Twig · SCSS",
+    stack: "React · Tailwind",
     description:
-      "Developed and customized Drupal themes using Twig templates and preprocess functions."
+      "Developed reusable and modular React components, integrated REST APIs for dynamic data handling, and enhanced frontend usability, responsiveness, and overall application experience."
   }
 ];
